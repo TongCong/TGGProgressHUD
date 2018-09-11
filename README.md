@@ -200,7 +200,7 @@ textView.text = status;
 **在写这个小工具之前，我也看了MBProgressHUD的源码，打开一看，就一个.m文件，瞬间很惊讶，难道是我实现这些功能太复杂了？我用了好多.m文件来着，进入里面一看，1000多行的代码，而且里面定义了一大堆宏，到处都有宏判断，瞬间觉得智商不够用，不知道从什么地方开始读......**
 
 **自习看了下MBPregressHUD的源码，其实里面由很多class文件组成，这样一看就和我们之前的设计差不多了** 
-![Alt text](./1520846346801.png)
+![Alt text](https://github.com/TongCong/TGGProgressHUD/blob/master/img/Snip20180911_11.png)
 
 **按照刚刚我们自己写的HUD来看，MBProgressHUD这个class应该是作为容器的，那么里面应该类似的处理了弹出，移除，设置frame等操作，其他的class应该就是所谓的自定义view的部分了，那么就重点看看MBProgressHUD这个class里面的东西**
 
