@@ -49,7 +49,7 @@
 **上面提到的两种方式，我们采用第二种，因为window本身就是一个单例对象，并且很方便的在各个地方获取到，而且可以保证它在所有控件的最上层**
 
 **接着看我们的层次关系，弹出的分为两层，底层是TCProgressHUD这个view层，用来作为hudView的容器，第二层就是hudView，用来显示弹出的内容**
-![Alt text](./1520838827954.png)
+![Alt text](https://github.com/TongCong/TGGProgressHUD/blob/master/img/Snip20180911_10.png)
 **首先我们创建TCProgressHUD，这个view作为容器，是被window弹出来的，所以必然对外提供接口，初始化方法，被window弹出来的和移除的方法**
 ```objectivec
 // 初始化方法
