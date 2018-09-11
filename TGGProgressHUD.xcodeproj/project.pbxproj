@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAABA57A2147D417002805E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABA5792147D417002805E3 /* AppDelegate.m */; };
+		AAABA57D2147D417002805E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABA57C2147D417002805E3 /* ViewController.m */; };
+		AAABA5802147D417002805E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAABA57E2147D417002805E3 /* Main.storyboard */; };
+		AAABA5822147D417002805E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAABA5812147D417002805E3 /* Assets.xcassets */; };
+		AAABA5852147D417002805E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAABA5832147D417002805E3 /* LaunchScreen.storyboard */; };
+		AAABA5882147D417002805E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABA5872147D417002805E3 /* main.m */; };
+		AAABA5922147D417002805E3 /* TGGProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABA5912147D417002805E3 /* TGGProgressHUDTests.m */; };
+		AAABA59D2147D417002805E3 /* TGGProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABA59C2147D417002805E3 /* TGGProgressHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAABA58E2147D417002805E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAABA56D2147D417002805E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAABA5742147D417002805E3;
+			remoteInfo = TGGProgressHUD;
+		};
+		AAABA5992147D417002805E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAABA56D2147D417002805E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAABA5742147D417002805E3;
+			remoteInfo = TGGProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAABA5752147D417002805E3 /* TGGProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGGProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABA5782147D417002805E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAABA5792147D417002805E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAABA57B2147D417002805E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAABA57C2147D417002805E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAABA57F2147D417002805E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAABA5812147D417002805E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAABA5842147D417002805E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAABA5862147D417002805E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAABA5872147D417002805E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAABA58D2147D417002805E3 /* TGGProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGGProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABA5912147D417002805E3 /* TGGProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGGProgressHUDTests.m; sourceTree = "<group>"; };
+		AAABA5932147D417002805E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAABA5982147D417002805E3 /* TGGProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGGProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAABA59C2147D417002805E3 /* TGGProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGGProgressHUDUITests.m; sourceTree = "<group>"; };
+		AAABA59E2147D417002805E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAABA5722147D417002805E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABA58A2147D417002805E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABA5952147D417002805E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAABA56C2147D417002805E3 = {
+			isa = PBXGroup;
+			children = (
+				AAABA5772147D417002805E3 /* TGGProgressHUD */,
+				AAABA5902147D417002805E3 /* TGGProgressHUDTests */,
+				AAABA59B2147D417002805E3 /* TGGProgressHUDUITests */,
+				AAABA5762147D417002805E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAABA5762147D417002805E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAABA5752147D417002805E3 /* TGGProgressHUD.app */,
+				AAABA58D2147D417002805E3 /* TGGProgressHUDTests.xctest */,
+				AAABA5982147D417002805E3 /* TGGProgressHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAABA5772147D417002805E3 /* TGGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AAABA5782147D417002805E3 /* AppDelegate.h */,
+				AAABA5792147D417002805E3 /* AppDelegate.m */,
+				AAABA57B2147D417002805E3 /* ViewController.h */,
+				AAABA57C2147D417002805E3 /* ViewController.m */,
+				AAABA57E2147D417002805E3 /* Main.storyboard */,
+				AAABA5812147D417002805E3 /* Assets.xcassets */,
+				AAABA5832147D417002805E3 /* LaunchScreen.storyboard */,
+				AAABA5862147D417002805E3 /* Info.plist */,
+				AAABA5872147D417002805E3 /* main.m */,
+			);
+			path = TGGProgressHUD;
+			sourceTree = "<group>";
+		};
+		AAABA5902147D417002805E3 /* TGGProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAABA5912147D417002805E3 /* TGGProgressHUDTests.m */,
+				AAABA5932147D417002805E3 /* Info.plist */,
+			);
+			path = TGGProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		AAABA59B2147D417002805E3 /* TGGProgressHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAABA59C2147D417002805E3 /* TGGProgressHUDUITests.m */,
+				AAABA59E2147D417002805E3 /* Info.plist */,
+			);
+			path = TGGProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAABA5742147D417002805E3 /* TGGProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAABA5A12147D417002805E3 /* Build configuration list for PBXNativeTarget "TGGProgressHUD" */;
+			buildPhases = (
+				AAABA5712147D417002805E3 /* Sources */,
+				AAABA5722147D417002805E3 /* Frameworks */,
+				AAABA5732147D417002805E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGGProgressHUD;
+			productName = TGGProgressHUD;
+			productReference = AAABA5752147D417002805E3 /* TGGProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAABA58C2147D417002805E3 /* TGGProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAABA5A42147D417002805E3 /* Build configuration list for PBXNativeTarget "TGGProgressHUDTests" */;
+			buildPhases = (
+				AAABA5892147D417002805E3 /* Sources */,
+				AAABA58A2147D417002805E3 /* Frameworks */,
+				AAABA58B2147D417002805E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAABA58F2147D417002805E3 /* PBXTargetDependency */,
+			);
+			name = TGGProgressHUDTests;
+			productName = TGGProgressHUDTests;
+			productReference = AAABA58D2147D417002805E3 /* TGGProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAABA5972147D417002805E3 /* TGGProgressHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAABA5A72147D417002805E3 /* Build configuration list for PBXNativeTarget "TGGProgressHUDUITests" */;
+			buildPhases = (
+				AAABA5942147D417002805E3 /* Sources */,
+				AAABA5952147D417002805E3 /* Frameworks */,
+				AAABA5962147D417002805E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAABA59A2147D417002805E3 /* PBXTargetDependency */,
+			);
+			name = TGGProgressHUDUITests;
+			productName = TGGProgressHUDUITests;
+			productReference = AAABA5982147D417002805E3 /* TGGProgressHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAABA56D2147D417002805E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TongCong;
+				TargetAttributes = {
+					AAABA5742147D417002805E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AAABA58C2147D417002805E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAABA5742147D417002805E3;
+					};
+					AAABA5972147D417002805E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAABA5742147D417002805E3;
+					};
+				};
+			};
+			buildConfigurationList = AAABA5702147D417002805E3 /* Build configuration list for PBXProject "TGGProgressHUD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAABA56C2147D417002805E3;
+			productRefGroup = AAABA5762147D417002805E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAABA5742147D417002805E3 /* TGGProgressHUD */,
+				AAABA58C2147D417002805E3 /* TGGProgressHUDTests */,
+				AAABA5972147D417002805E3 /* TGGProgressHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAABA5732147D417002805E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABA5852147D417002805E3 /* LaunchScreen.storyboard in Resources */,
+				AAABA5822147D417002805E3 /* Assets.xcassets in Resources */,
+				AAABA5802147D417002805E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABA58B2147D417002805E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABA5962147D417002805E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAABA5712147D417002805E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABA57D2147D417002805E3 /* ViewController.m in Sources */,
+				AAABA5882147D417002805E3 /* main.m in Sources */,
+				AAABA57A2147D417002805E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABA5892147D417002805E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABA5922147D417002805E3 /* TGGProgressHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAABA5942147D417002805E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAABA59D2147D417002805E3 /* TGGProgressHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAABA58F2147D417002805E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAABA5742147D417002805E3 /* TGGProgressHUD */;
+			targetProxy = AAABA58E2147D417002805E3 /* PBXContainerItemProxy */;
+		};
+		AAABA59A2147D417002805E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAABA5742147D417002805E3 /* TGGProgressHUD */;
+			targetProxy = AAABA5992147D417002805E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAABA57E2147D417002805E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAABA57F2147D417002805E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAABA5832147D417002805E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAABA5842147D417002805E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAABA59F2147D417002805E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAABA5A02147D417002805E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAABA5A22147D417002805E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TGGProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TongCong.TGGProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAABA5A32147D417002805E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TGGProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TongCong.TGGProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAABA5A52147D417002805E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TGGProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TongCong.TGGProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGGProgressHUD.app/TGGProgressHUD";
+			};
+			name = Debug;
+		};
+		AAABA5A62147D417002805E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TGGProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TongCong.TGGProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGGProgressHUD.app/TGGProgressHUD";
+			};
+			name = Release;
+		};
+		AAABA5A82147D417002805E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TGGProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TongCong.TGGProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGGProgressHUD;
+			};
+			name = Debug;
+		};
+		AAABA5A92147D417002805E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TGGProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TongCong.TGGProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGGProgressHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAABA5702147D417002805E3 /* Build configuration list for PBXProject "TGGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABA59F2147D417002805E3 /* Debug */,
+				AAABA5A02147D417002805E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAABA5A12147D417002805E3 /* Build configuration list for PBXNativeTarget "TGGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABA5A22147D417002805E3 /* Debug */,
+				AAABA5A32147D417002805E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAABA5A42147D417002805E3 /* Build configuration list for PBXNativeTarget "TGGProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABA5A52147D417002805E3 /* Debug */,
+				AAABA5A62147D417002805E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAABA5A72147D417002805E3 /* Build configuration list for PBXNativeTarget "TGGProgressHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAABA5A82147D417002805E3 /* Debug */,
+				AAABA5A92147D417002805E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAABA56D2147D417002805E3 /* Project object */;
+}
